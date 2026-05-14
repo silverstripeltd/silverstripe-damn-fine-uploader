@@ -15,7 +15,7 @@ use SilverStripe\Forms\Form;
 use SilverStripe\Forms\CheckboxField;
 use SilverStripe\Forms\TextareaField;
 use SilverStripe\Forms\NumericField;
-use SilverStripe\ORM\ValidationException;
+use SilverStripe\Core\Validation\ValidationException;
 use SilverStripe\UserForms\Extension\UserFormFileExtension;
 use SilverStripe\Versioned\Versioned;
 use SilverStripe\UserForms\Model\EditableFormField;

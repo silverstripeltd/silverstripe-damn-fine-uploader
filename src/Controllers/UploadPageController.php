@@ -12,7 +12,7 @@ use Silverstripe\Forms\Form;
 use SilverStripe\Assets\File;
 use SilverStripe\Core\Extension;
 use SilverStripe\Control\HTTPResponse;
-use SilverStripe\ORM\ValidationResult;
+use SilverStripe\Core\Validation\ValidationResult;
 
 /**
  * Controller for handling file uploads
