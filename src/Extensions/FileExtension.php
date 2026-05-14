@@ -3,13 +3,13 @@
 namespace Codem\DamnFineUploader;
 
 use SilverStripe\Forms\FieldList;
-use SilverStripe\ORM\DataExtension;
+use SilverStripe\Core\Extension;
 use SilverStripe\ORM\DataObject;
 use SilverStripe\Assets\File;
 use SilverStripe\Core\Config\Config;
 use SilverStripe\Versioned\Versioned;
 
-class FileExtension extends DataExtension
+class FileExtension extends Extension
 {
     private static $db = [
         'DFU' => 'Varchar(255)',
